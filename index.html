@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Research Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Research Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#papers">Research Papers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos">Videos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./me.jpg" alt="Your Photo" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8">
+                    <p>I am a 4th-year student at UVA interested in Low-level programming and Machine Learning. I have developed hands-on experience with Compilers, Binary Exploits, and Deep/Machine Learning using TensorFlow, Keras, and Numpy. Additionally, I have industry experience with fullstack development using React and C#, and cloud development using Azure services.
+                        <br></p>
+                        <p>I am most passionate about computer vision/perception, navigation and path planning in robotics and autonomous vehicles. I have extensive experience working with stereo-depth cameras such as Intel RealSense solutions and OpenCV through my involvement in UVA's Mechatronics and Robotics Society (MARS).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Papers Section -->
+    <section id="papers" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Research Papers</h2>
+            <div class="row">
+                <!-- MARS Mission Paper -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Final MARS Mission Research Paper - Virginia Aerospace Science & Technology Scholars Program</h5>
+                            <p class="card-text">Research paper exploring aspects of Mars mission planning and execution.</p>
+                            <a href="https://drive.google.com/file/d/1i9MMoIaj2SRLGVabf8Y3uEUR-hVx1aw_/view?usp=sharing" 
+                               class="btn btn-primary" target="_blank">Read Paper</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Space Experiment Paper -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Long Duration Experiment in Space Technical Report</h5>
+                            <p class="card-text">Technical analysis and findings from extended space experimentation.</p>
+                            <a href="https://docs.google.com/file/d/15XZCebE_7UX5BkxYfRkTGRbk-lLQ0cpi_qvoy4Cr5Nk/view" 
+                               class="btn btn-primary" target="_blank">Read Report</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tropical Cyclones Paper -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Anthropogenically Weighted Atmospheric Entropy on Potential Intensity of Tropical Cyclones</h5>
+                            <p class="card-text">Science Fair Research Paper investigating the relationship between human-induced atmospheric changes and tropical cyclone intensity.</p>
+                            <a href="https://drive.google.com/file/d/1eHCemlOfxuwRqV0pG4c_qZfg1WpXj1BK/view" 
+                               class="btn btn-primary" target="_blank">Read Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Research Videos</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/4OSMQCmz0jg" 
+                                    title="YouTube video" 
+                                    allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Research Video 1 on Science Fair Project</h5>
+                            <p class="card-text">Explanation of the effect of the Carnot Cycle in Atmospheric Warmoing and Sea Surface Temperature and the use of Machine Learning LSTM models to predict Tropical Cyclone intensities.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/BdfB8GYn1tQ" 
+                                    title="YouTube video" 
+                                    allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Research Video 2 on Science Fair Project</h5>
+                            <p class="card-text">Presentation on my use of machine learning, specifically pattern recognition and time series forecasting to predict tropical cyclone intensities due to greenhouse gas emissions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
